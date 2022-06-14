@@ -23,12 +23,6 @@ class Searchbar extends Component {
 
     e.preventDefault();
     onSubmit(filter);
-
-    this.reset();
-  };
-
-  reset = () => {
-    this.setState({ filter: '' });
   };
 
   render() {
